@@ -1,0 +1,83 @@
+.svgIcon,
+.title {
+  position: relative;
+}
+.title {
+  align-self: stretch;
+  letter-spacing: -0.24px;
+  line-height: 21px;
+}
+.svgIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.datetext {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.date,
+.likes {
+  display: flex;
+  justify-content: flex-start;
+}
+.date {
+  flex-direction: row;
+  padding: var(--padding-17xs) 0;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.likes {
+  border-radius: var(--br-sm);
+  padding: var(--padding-17xs) var(--padding-13xs) var(--padding-17xs)
+    var(--padding-14xs);
+  align-items: center;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-4xs);
+}
+.comments,
+.likes,
+.stats {
+  flex-direction: row;
+}
+.comments {
+  border-radius: var(--br-sm);
+  display: flex;
+  padding: var(--padding-17xs) var(--padding-15xs) var(--padding-17xs)
+    var(--padding-14xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.stats {
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.div,
+.div1,
+.stats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.div {
+  cursor: pointer;
+  text-decoration: none;
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-12xl) 0 var(--padding-13xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-lora);
+}

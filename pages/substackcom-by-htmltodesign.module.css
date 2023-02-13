@@ -1,0 +1,175 @@
+.aIcon,
+.logoIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.aIcon {
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+}
+.logoIcon {
+  border-radius: var(--br-sm);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  z-index: 0;
+}
+.signIn {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14.75px);
+  left: calc(50% - 35.87px);
+  letter-spacing: -0.23px;
+  line-height: 27.5px;
+  font-weight: 900;
+  z-index: 1;
+}
+.div {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xl) 0 var(--padding-2xl) var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.continueTo,
+.thelaunchblog {
+  position: relative;
+  line-height: 24px;
+}
+.thelaunchblog {
+  font-size: var(--font-size-2xl);
+  line-height: 38px;
+  color: #1c110b;
+}
+.continueToParent,
+.div3,
+.input {
+  display: flex;
+  justify-content: flex-start;
+}
+.continueToParent {
+  flex-direction: column;
+  align-items: center;
+}
+.div3,
+.input {
+  align-self: stretch;
+}
+.div3 {
+  flex-direction: column;
+  padding: 46px 50px;
+  align-items: center;
+  gap: 21px;
+}
+.input {
+  border: 1px solid var(--color-whitesmoke);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  border-radius: var(--br-sm);
+  flex-direction: row;
+  padding: var(--padding-9xl) var(--padding-9xs);
+  align-items: flex-start;
+  z-index: 2;
+}
+.input,
+.input1,
+.signIn1 {
+  font-family: var(--font-roboto);
+}
+.input1 {
+  border: 1px solid var(--color-whitesmoke);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xl) var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.signIn1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+}
+.button,
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 20.079689025878906px var(--padding-xs)
+    20.279685974121094px;
+  background-color: var(--color-orangered-100);
+  border-radius: var(--br-sm);
+  flex-direction: row;
+  z-index: 0;
+}
+.button:hover {
+  background-color: #d84800;
+}
+.form {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.signUp {
+  color: var(--color-orangered-100);
+}
+.dontHaveAnContainer {
+  position: relative;
+}
+.div2,
+.div4,
+.substackcomByHtmltodesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div4 {
+  align-self: stretch;
+  gap: 64px;
+}
+.div2,
+.substackcomByHtmltodesign {
+  box-sizing: border-box;
+}
+.div2 {
+  width: 502px;
+  padding: 0 var(--padding-12xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.substackcomByHtmltodesign {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100vh;
+  padding: 0 0 477px;
+  text-align: left;
+  font-size: 22px;
+  color: #404040;
+  font-family: var(--font-sf-pro-display);
+}

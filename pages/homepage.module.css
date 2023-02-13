@@ -1,0 +1,123 @@
+.new,
+.searchIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.new {
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  width: 28.31px;
+  height: 16px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.postsHeader {
+  width: 680px;
+  height: 43px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.separator {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.postsHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seeAll {
+  position: absolute;
+  top: 5.5px;
+  left: 17.73px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.24px;
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray-200);
+  text-align: left;
+}
+.svgIcon {
+  position: absolute;
+  top: 8.5px;
+  left: 68.25px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+}
+.a {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+  width: 100.25px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.list,
+.postsLeft {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.postsLeft {
+  flex: 1;
+  padding: 0 0 var(--padding-15xl);
+  gap: var(--gap-4xl);
+}
+.allposts,
+.homepage,
+.main,
+.postsLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.allposts {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 72px;
+  max-width: 100%;
+}
+.homepage,
+.main {
+  background-color: var(--color-oldlace-200);
+  flex-direction: column;
+}
+.main {
+  align-self: stretch;
+  padding: 0 var(--padding-14xl) 60px;
+  align-items: center;
+  gap: 68px;
+}
+.homepage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-roboto);
+}

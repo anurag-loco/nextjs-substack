@@ -1,0 +1,109 @@
+.thelaunchblog {
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 16.24px;
+  font-weight: 500;
+}
+.h4,
+.separator {
+  align-self: stretch;
+}
+.h4 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separator {
+  position: relative;
+  border-top: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.input,
+.subscribe1 {
+  font-family: var(--font-roboto);
+}
+.input {
+  border: 1px solid var(--color-silver-100);
+  font-size: var(--font-size-base);
+  background-color: var(--color-oldlace-100);
+  flex: 1;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribe1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  color: var(--color-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-7xl) var(--padding-8xs)
+    var(--padding-8xl);
+  background-color: var(--color-chocolate-100);
+  align-self: stretch;
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+}
+.button,
+.div,
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  flex: 1;
+}
+.form {
+  width: 382.27px;
+  max-width: 100%;
+}
+.about,
+.archive,
+.sitemap {
+  position: absolute;
+  top: 16px;
+  left: 0.3px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+}
+.archive,
+.sitemap {
+  top: 52px;
+  left: 1.11px;
+}
+.sitemap {
+  top: 88px;
+  left: 1.44px;
+}
+.links {
+  align-self: stretch;
+  position: relative;
+  height: 108px;
+  flex-shrink: 0;
+  font-family: var(--font-sf-pro-display);
+}
+.subscribe {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-lora);
+}
